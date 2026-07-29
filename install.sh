@@ -4,7 +4,7 @@
 
 set -euo pipefail
 
-AGENTS=(монтажер копирайтер техспец дизайнер ресерчер)
+AGENTS=(монтажер копирайтер техспец дизайнер ресерчер обложки)
 DEST="$HOME/.claude/skills"
 SRC="$(cd "$(dirname "${BASH_SOURCE[0]}")/skills" && pwd)"
 
